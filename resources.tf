@@ -16,8 +16,6 @@ resource "aws_iam_access_key" "instanceManageUser" {
 
 data "template_file" "policy" {
   template = "${file("${path.module}/policy.json")}"
-  bucket_name = "MyBucket"
-  
 }
 
 resource "aws_iam_user_policy" "instanceManageUser_assume_role" {
