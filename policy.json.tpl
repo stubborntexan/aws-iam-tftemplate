@@ -1,4 +1,5 @@
-{
+${jsonencode({
+    {
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -23,4 +24,5 @@
             "Resource": "arn:aws:s3:::${var.bucket_name}"
         }
     ]
-}
+   }
+})}
