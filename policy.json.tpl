@@ -1,5 +1,4 @@
-${jsonencode({
-    {
+{
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -21,8 +20,7 @@ ${jsonencode({
                 "s3:GetObject",
                 "s3:ListBucket"
             ],
-            "Resource": "arn:aws:s3:::${var.bucket_name}"
+            "Resource": "arn:aws:s3:::$${var.bucket_name}"
         }
     ]
-   }
-})}
+}
