@@ -15,7 +15,7 @@ resource "aws_iam_access_key" "instanceManageUser" {
 }
 
 data "template_file" "policy" {
-  template = "${file("${path.module}/policy.json")}"
+  template = "${file("${path.module}/policy.json.tpl")}"
 }
 
 resource "aws_iam_user_policy" "instanceManageUser_assume_role" {
