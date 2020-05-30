@@ -19,7 +19,7 @@ data "template_file" "policy" {
 }
 
 resource "aws_iam_user_policy" "instanceManageUser_assume_role" {
-  name = InstanceManagePolicy
+  name = "InstanceManagePolicy"
   user = aws_iam_user.instanceManageUser.name
 
   policy = data.template_file.policy.rendered
