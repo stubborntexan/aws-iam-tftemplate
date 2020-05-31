@@ -10,7 +10,12 @@
                 "ec2:TerminateInstances",
                 "ec2:Describe*",
                 "ec2:CreateTags",
-                "ec2:RequestSpotInstances"
+                "ec2:RequestSpotInstances",
+                "ec2:AuthorizeSecurityGroupEgress",
+                "ec2:AuthorizeSecurityGroupIngress",
+                "ec2:DeleteSecurityGroup",
+                "ec2:RevokeSecurityGroupEgress",
+                "ec2:RevokeSecurityGroupIngress"
             ],
             "Resource": "*"
         },
