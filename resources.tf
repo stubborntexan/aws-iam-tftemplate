@@ -7,7 +7,7 @@ provider "aws" {
 }
 
 resource "aws_iam_user" "instanceManageUser" {
-  name = "instanceManageUser"
+  name = var.iam_user_name
 }
 
 resource "aws_iam_access_key" "instanceManageUser" {
@@ -19,7 +19,7 @@ data "template_file" "policy" {
 }
 
 resource "aws_iam_user_policy" "instanceManageUser_assume_role" {
-  name = "InstanceManagePolicy"
+  name = var.iam_policy_name
   user = aws_iam_user.instanceManageUser.name
 
   policy = data.template_file.policy.rendered
