@@ -11,6 +11,7 @@
                 "ec2:TerminateInstances",
                 "ec2:Describe*",
                 "ec2:RequestSpotInstances",
+                "ec2:DisassociateIamInstanceProfile",
                 "ec2:AuthorizeSecurityGroupEgress",
                 "ec2:AuthorizeSecurityGroupIngress",
                 "ec2:CreateSecurityGroup",
