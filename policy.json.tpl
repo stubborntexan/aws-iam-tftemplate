@@ -17,7 +17,7 @@
                 "ec2:CreateSecurityGroup",
                 "ec2:DeleteSecurityGroup",
                 "ec2:RevokeSecurityGroupEgress",
-                "ec2:RevokeSecurityGroupIngress"
+                "ec2:RevokeSecurityGroupIngress",
                 "ec2:CreateNetworkAcl",
 		    	"ec2:CreateNetworkAclEntry",
 			    "ec2:CreateNetworkInterface",
@@ -52,7 +52,7 @@
 			    "ec2:AttachVolume",
                 "ec2:CreateVpnConnection",
                 "ec2:ModifyVpnConnection",
-                "ec2:ModifyVpnTunnelOptions",
+                "ec2:ModifyVpnTunnelOptions"
             ],
             "Resource": "*"
         },
