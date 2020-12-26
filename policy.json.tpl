@@ -6,10 +6,6 @@
             "Action": [
             	"ec2:CreateTags",
                 "ec2:RunInstances",
-<<<<<<< HEAD
-                "ec2:RunInstances",
-=======
->>>>>>> 84b1eb882dc41fe0d9d6fb58b78dea5ff1cba213
                 "ec2:StopInstances",
                 "ec2:StartInstances",
                 "ec2:TerminateInstances",
@@ -29,17 +25,12 @@
 			    "autoscaling:AttachLoadbalancers",
 			    "autoscaling:CreateAutoScalingGroup",
 			    "autoscaling:CreateLaunchConfiguration",
-			    "ec2:CreateVpc",
 			    "ec2:DescribeNetworkACLs",
 			    "ec2:DescribeRouteTables",
 			    "ec2:CreateVpc",
 			    "ec2:CreateVpcEndpoint",
-			    "ec2:CreateVpc",
 			    "ec2:CreateVpcPeeringConnection",
-			    "ec2:AcceptVpcPeeringConnection",
 			    "ec2:CreateSubnet",
-			    "ec2:CreateTags",
-			    "ec2:RunInstances",
 			    "ec2:MonitorInstances",
 			    "ec2:CreateSecurityGroup",
 			    "ec2:AuthorizeSecurityGroupEgress",
@@ -61,7 +52,7 @@
 			    "ec2:AttachVolume",
                 "ec2:CreateVpnConnection",
                 "ec2:ModifyVpnConnection",
-                "ec2:ModifyVpnTunnelOptions".
+                "ec2:ModifyVpnTunnelOptions"
             ],
             "Resource": "*"
         },
