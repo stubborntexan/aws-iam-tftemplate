@@ -4,7 +4,9 @@
         {
             "Effect": "Allow",
             "Action": [
-            	"ec2:RunInstances",
+            	"ec2:CreateTags",
+                "ec2:RunInstances",
+                "ec2:RunInstances",
                 "ec2:StopInstances",
                 "ec2:StartInstances",
                 "ec2:TerminateInstances",
