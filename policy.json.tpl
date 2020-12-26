@@ -6,12 +6,16 @@
             "Action": [
             	"ec2:CreateTags",
                 "ec2:RunInstances",
+<<<<<<< HEAD
                 "ec2:RunInstances",
+=======
+>>>>>>> 84b1eb882dc41fe0d9d6fb58b78dea5ff1cba213
                 "ec2:StopInstances",
                 "ec2:StartInstances",
                 "ec2:TerminateInstances",
                 "ec2:Describe*",
                 "ec2:RequestSpotInstances",
+                "ec2:DisassociateIamInstanceProfile",
                 "ec2:AuthorizeSecurityGroupEgress",
                 "ec2:AuthorizeSecurityGroupIngress",
                 "ec2:CreateSecurityGroup",
