@@ -20,6 +20,7 @@
                 "ec2:RevokeSecurityGroupIngress",
                 "ec2:CreateNetworkAcl",
 		    	"ec2:CreateNetworkAclEntry",
+                "ec2:ReplaceNetworkAclAssociation",
 			    "ec2:CreateNetworkInterface",
 			    "ec2:AttachNetworkInterface",
 			    "autoscaling:AttachLoadbalancers",
@@ -50,6 +51,9 @@
 			    "route53:CreateHealthCheck",
 			    "ec2:CreateVolume",
 			    "ec2:AttachVolume",
+                "ec2:CreateNatGateway",
+                "ec2:CreateCustomerGateway",
+                "ec2:CreateVpnGateway",
                 "ec2:CreateVpnConnection",
                 "ec2:ModifyVpnConnection",
                 "ec2:ModifyVpnTunnelOptions"
