@@ -52,7 +52,7 @@
 			    "ec2:AttachVolume",
                 "ec2:CreateVpnConnection",
                 "ec2:ModifyVpnConnection",
-                "ec2:ModifyVpnTunnelOptions"
+                "ec2:ModifyVpnTunnelOptions",
             ],
             "Resource": "*"
         },
