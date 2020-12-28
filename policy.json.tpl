@@ -56,6 +56,7 @@
                 "ec2:CreateCustomerGateway",
                 "ec2:CreateVpnGateway",
                 "ec2:AttachVpnGateway",
+                "ec2:DeleteVpnGateway",
                 "ec2:CreateVpnConnection",
                 "ec2:ModifyVpnConnection",
                 "ec2:ModifyVpnTunnelOptions"
