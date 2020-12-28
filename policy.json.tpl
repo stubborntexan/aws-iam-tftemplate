@@ -20,6 +20,7 @@
                 "ec2:RevokeSecurityGroupIngress",
                 "ec2:CreateNetworkAcl",
 		    	"ec2:CreateNetworkAclEntry",
+                "ec2:DeleteNetworkAcl",
                 "ec2:ReplaceNetworkAclAssociation",
 			    "ec2:CreateNetworkInterface",
 			    "ec2:AttachNetworkInterface",
@@ -54,6 +55,7 @@
                 "ec2:CreateNatGateway",
                 "ec2:CreateCustomerGateway",
                 "ec2:CreateVpnGateway",
+                "ec2:AttachVpnGateway",
                 "ec2:CreateVpnConnection",
                 "ec2:ModifyVpnConnection",
                 "ec2:ModifyVpnTunnelOptions"
