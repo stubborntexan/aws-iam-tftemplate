@@ -59,6 +59,7 @@
                 "ec2:DeleteVpnGateway",
                 "ec2:CreateVpnConnection",
                 "ec2:ModifyVpnConnection",
+                "ec2:CreateVpnConnectionRoute",
                 "ec2:ModifyVpnTunnelOptions"
             ],
             "Resource": "*"
