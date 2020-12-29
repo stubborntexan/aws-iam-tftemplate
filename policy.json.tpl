@@ -45,6 +45,7 @@
 			    "ec2:AttachInternetGateway",
 			    "ec2:CreateRoute",
 			    "ec2:CreateRouteTable",
+                "ec2:DisassociateRouteTable",
 			    "ec2:EnableVGWRoutePropagation",
 			    "ec2:AllocateAddress",
 			    "ec2:AssociateAddress",
