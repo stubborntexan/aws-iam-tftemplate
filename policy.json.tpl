@@ -21,6 +21,7 @@
                 "ec2:CreateNetworkAcl",
 		    	"ec2:CreateNetworkAclEntry",
                 "ec2:DeleteNetworkAcl",
+                "ec2:DeleteNetworkAclEntry",
                 "ec2:ReplaceNetworkAclAssociation",
 			    "ec2:CreateNetworkInterface",
 			    "ec2:AttachNetworkInterface",
