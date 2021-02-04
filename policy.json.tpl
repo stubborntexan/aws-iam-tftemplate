@@ -48,6 +48,7 @@
 			    "ec2:AttachInternetGateway",
 			    "ec2:CreateRoute",
                 "ec2:DeleteRoute",
+                "ec2:ReplaceRoute",
 			    "ec2:CreateRouteTable",
                 "ec2:DeleteRouteTable",
                 "ec2:DisassociateRouteTable",
