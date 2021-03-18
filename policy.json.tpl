@@ -34,6 +34,7 @@
 			    "ec2:CreateVpc",
 			    "ec2:CreateVpcEndpoint",
 			    "ec2:CreateVpcPeeringConnection",
+                "ec2:ModifyVpcAttribute",
 			    "ec2:CreateSubnet",
                 "ec2:DeleteSubnet",
 			    "ec2:MonitorInstances",
