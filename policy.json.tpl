@@ -37,6 +37,7 @@
                 "ec2:ModifyVpcAttribute",
 			    "ec2:CreateSubnet",
                 "ec2:DeleteSubnet",
+                "ec2:ModifySubnetAttribute",
 			    "ec2:MonitorInstances",
 			    "ec2:CreateSecurityGroup",
 			    "ec2:AuthorizeSecurityGroupEgress",
