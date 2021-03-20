@@ -53,6 +53,7 @@
                 "ec2:ReplaceRoute",
 			    "ec2:CreateRouteTable",
                 "ec2:DeleteRouteTable",
+                "ec2:ReplaceRouteTableAssociation",
                 "ec2:DisassociateRouteTable",
 			    "ec2:EnableVGWRoutePropagation",
                 "ec2:DisableVgwRoutePropagation",
