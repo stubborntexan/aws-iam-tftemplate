@@ -18,6 +18,7 @@
                 "ec2:Revoke*",
                 "ec2:Replace*",
                 "ec2:Attach*",
+                "ec2:Detach*",
 			    "ec2:Modify*",
 			    "ec2:Monitor*",
 			    "ec2:Enable*",
