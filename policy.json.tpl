@@ -25,6 +25,8 @@
                 "ec2:Disable*",
 			    "ec2:Allocate*",
                 "ec2:Release*",
+                "ec2:Assign*",
+                "ec2:Unassign*",
 			    "route53:Create*"
             ],
             "Resource": "*"
