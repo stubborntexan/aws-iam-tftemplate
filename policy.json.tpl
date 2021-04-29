@@ -27,7 +27,8 @@
                 "ec2:Release*",
                 "ec2:Assign*",
                 "ec2:Unassign*",
-			    "route53:Create*"
+			    "route53:Create*",
+                "dynamodb:*"
             ],
             "Resource": "*"
         },
