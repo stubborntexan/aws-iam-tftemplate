@@ -29,7 +29,8 @@
                 "ec2:Unassign*",
 			    "route53:Create*",
                 "dynamodb:*",
-                "lightsail:*"
+                "lightsail:*",
+                "route53:*"
             ],
             "Resource": "*"
         },
