@@ -30,7 +30,8 @@
 			    "route53:Create*",
                 "dynamodb:*",
                 "lightsail:*",
-                "route53:*"
+                "route53:*",
+                "cloudfront:*"
             ],
             "Resource": "*"
         },
