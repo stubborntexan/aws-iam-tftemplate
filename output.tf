@@ -3,4 +3,5 @@ output "instance_manage_user_access_key" {
 }
 output "instance_manage_user_secret_key" {
   value = "${aws_iam_access_key.instanceManageUser.secret}"
+  sensitive = true
 }
